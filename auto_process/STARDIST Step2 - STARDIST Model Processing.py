@@ -4,7 +4,7 @@
 """ This example runs stardist on all tif files in a folder
 
 ***This is a minor modification from the original maweigert/stardist_script.py gist by Martin Weigert, link below:
-https://gist.github.com/maweigert/8dd6ef139e1cd37b2307b35fb50dee4a***
+https://gist.github.com/maweigert/8dd6ef139e1cd37b2307b35fb50dee4a ***
 
 Full list of Parameters:
 
@@ -34,7 +34,7 @@ for f in sorted(glob(os.path.join(indir,"*.tif"))):
 	res = command.run(StarDist2D, False,
 			"input", imp,
 			"modelChoice", "DSB 2018 (from StarDist 2D paper)",
-			"normalizeInput",True, "percentileBottom",35, "percentileTop",99.8,
+			"normalizeInput", True, "percentileBottom",35, "percentileTop",99.8,
 			"probThresh",0.725, "nmsThresh", 0.35, "outputType","Label Image",
 			"nTiles",1, "excludeBoundary",2, "verbose",1, "showCsbdeepProgress",1, "showProbAndDist",0
 			).get()
