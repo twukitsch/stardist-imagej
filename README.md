@@ -24,4 +24,24 @@ Concretely, you can follow these steps:
 
 ## Usage
 
+[stardist-imagej/auto_process](https://github.com/twukitsch/stardist-imagej/tree/master/auto_process) contains automations complete with dialog box GUIs and a helpful guide for c-fos cell counting. (Special thanks to Medical University of South Carolina for some of the testing.)
+* STARDIST Automated Cell Counting Protocol.docx -- a helpful guide for c-fos cell counting when your entire image is to be cell counted.
+* STARDIST Step0 - Split Color Channels.ijm -- quickly resolves issues with 3 channel (RGB) TIFFs and splits them into individual color channels.
+* STARDIST Step1 - Preprocessing.ijm -- conveniently automates:
+  * 8-bit conversion
+  * Image Rescaling
+  * Smoothing
+  * Background Subtraction
+  * Median Filtering
+  * Contrast Enhancement
+  * Sharpening
+* STARDIST Step2 - STARDIST Model Processing.py -- (should be run from Fiji macro editor NOT python) handy [python script](https://gist.github.com/maweigert/8dd6ef139e1cd37b2307b35fb50dee4a) by [Martin Weigert](https://gist.github.com/maweigert) with minor modifcations
+* STARDIST Step3 - Postprocessing.ijm -- automates postprocessing and cell counting steps and saves a dataset:
+  * Thresholding
+  * Converting to Mask
+  * Watershedding
+  * Analyze Particles (counting)
+
+
 See the [wiki page](https://imagej.net/StarDist) for more information.
+
