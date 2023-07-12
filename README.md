@@ -24,7 +24,7 @@ Concretely, you can follow these steps:
 
 ## Usage
 
-[stardist-imagej/auto_process](https://github.com/twukitsch/stardist-imagej/tree/master/auto_process) contains automations complete with dialog box GUIs and a helpful guide for c-fos cell counting. (Special thanks to Medical University of South Carolina for some of the testing.)
+[stardist-imagej/auto_process](https://github.com/twukitsch/stardist-imagej/tree/master/auto_process) contains automations complete with dialog box GUIs and a helpful guide for c-fos cell counting. (Special thanks to [The Rinker Lab at MUSC](https://github.com/RinkerLabMUSC) for allowing me to develop some of the first iterations of this.)
 * STARDIST Automated Cell Counting Protocol.docx -- a helpful guide for c-fos cell counting when your entire image is to be cell counted.
 * STARDIST Step0 - Split Color Channels.ijm -- quickly resolves issues with 3 channel (RGB) TIFFs and splits them into individual color channels.
 * STARDIST Step1 - Preprocessing.ijm -- conveniently automates:
