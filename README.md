@@ -35,8 +35,8 @@ Concretely, you can follow these steps:
   * Median Filtering
   * Contrast Enhancement
   * Sharpening
-* STARDIST Step2 - STARDIST Model Processing.py -- (should be run from Fiji macro editor NOT python) this is handy [python script](https://gist.github.com/maweigert/8dd6ef139e1cd37b2307b35fb50dee4a) by [Martin Weigert](https://gist.github.com/maweigert) with minor modifcations shown here.
-* STARDIST Step3 - Postprocessing.ijm -- automates postprocessing and cell counting steps and saves a dataset:
+* STARDIST Step2 - STARDIST Model Processing.py -- (should be run from Fiji macro editor NOT python) this is a handy [python script](https://gist.github.com/maweigert/8dd6ef139e1cd37b2307b35fb50dee4a) by [Martin Weigert](https://gist.github.com/maweigert) with minor modifcations in the current fork.
+* STARDIST Step3 - Postprocessing.ijm -- automates postprocessing and cell counting steps then saves a dataset:
   * Thresholding
   * Converting to Mask
   * Watershedding
